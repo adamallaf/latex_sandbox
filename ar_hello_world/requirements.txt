@@ -1,0 +1,3 @@
+texlive
+texlive-xetex
+texlive-lang-arabic
