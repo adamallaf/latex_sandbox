@@ -1,0 +1,31 @@
+\documentclass[12pt]{article}
+
+\usepackage{fontspec}
+
+\setmainfont{amiri}[
+	Extension = .ttf, UprightFont = *-regular, Script = Arabic,
+%	Path =
+]
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguages{arabic,polish,french}
+
+
+\begin{document}
+
+Good morning
+
+\begin{Arabic}
+صباح الخير (\textenglish{good morning})
+\end{Arabic}
+
+\begin{polish}
+Dzień dobry
+\end{polish}
+
+\begin{french}
+Bonjour
+\end{french}
+
+\end{document}

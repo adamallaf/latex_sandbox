@@ -1,0 +1,5 @@
+texlive
+texlive-xetex
+texlive-lang-arabic
+texlive-lang-polish
+texlive-lang-french
